@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Foundation | Welcome</title>
+    <title>gilliamPortfolio | <?php echo $pageTitle; ?></title>
     <link href='https://fonts.googleapis.com/css?family=Josefin+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
@@ -43,11 +43,12 @@
         <div class='row'>
           <div class='small-3 columns'>
             <ul id='main-nav'>
-              <li class='active-custom'><a href='index.php'>Home</a><span class="fold"></li>
+              <li><a href='index.php'>Home</a><span class="fold"></li>
               <li><a href='sites.php'>Live Sites</a><span class="fold"></li>
               <li><a href='wireframes.php'>Wireframes</a><span class="fold"></li>
               <li><a href='snippets.php'>Code Snippets</a><span class="fold"></li>
               <li><a href='design.php'>Design</a><span class="fold"></li>
+              <li><a href='uploads/gilliamDavid.8.18.15.pdf' target='_blank'>Resume</a><span class="fold"></li>
             </ul>
           </div>
           <div class='small-9 columns'>

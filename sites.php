@@ -1,4 +1,5 @@
 <?php 
+	$pageTitle = 'Live Sites';
 	include "template/header.php";
 	include "connect.php";
 	$statement = $db->prepare("SELECT * FROM liveSites");

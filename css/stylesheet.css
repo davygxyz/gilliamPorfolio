@@ -146,4 +146,7 @@ pre code{
 	background-position: 100% 200%;
 	background-size: 1200px 500px;
 }
-
+#social-links ul li{
+	display: inline-block;
+	list-style-type: none;
+}
